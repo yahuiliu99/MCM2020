@@ -1,0 +1,6 @@
+clc
+clear
+load futuretemp.mat
+fishcoe(find(~fishgrid0507))=0;
+fishcoe=fishcoe(end:-1:1,:);
+futempgrid=reshape(futuretemp,23,16);
